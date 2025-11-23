@@ -1144,10 +1144,14 @@ textarea.form-control {
     }
 }
   body p{
-    text-align: justify;
+   text-align: start; /* aligns text to the start edge (left in LTR languages) */
+    text-align-last: start; /* ensures last line is aligned with the start */
+    line-height: 1.6;
   }
   .values-section p{
-    text-align: center;
+     text-align: start; /* aligns text to the start edge (left in LTR languages) */
+    text-align-last: start; /* ensures last line is aligned with the start */
+    line-height: 1.6;
   }
  .nl-section-title{
     justify-content: center;
@@ -1278,4 +1282,5 @@ textarea.form-control {
             .nl-footer-column {
                 flex: 100%;
             }
+
         }
