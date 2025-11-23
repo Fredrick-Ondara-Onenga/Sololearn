@@ -1119,7 +1119,7 @@ textarea.form-control {
 /* Very small devices (phones, 375px and down) */
 @media (max-width: 375px) {
     .hero {
-        height: 94vh;
+        height: 75vh;
         min-height: 400px;
     }
     
@@ -1285,4 +1285,5 @@ textarea.form-control {
             }
 
         }
+
 
