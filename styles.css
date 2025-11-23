@@ -1119,7 +1119,7 @@ textarea.form-control {
 /* Very small devices (phones, 375px and down) */
 @media (max-width: 375px) {
     .hero {
-        height: 70vh;
+        height: 94vh;
         min-height: 400px;
     }
     
@@ -1154,7 +1154,8 @@ textarea.form-control {
     line-height: 1.6;
   }
  .nl-section-title{
-    justify-content: center;
+   font-size: 23px;
+    margin-left: 13px;
  }
 
         .nl-footer {
@@ -1284,3 +1285,4 @@ textarea.form-control {
             }
 
         }
+
